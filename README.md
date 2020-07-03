@@ -1,2 +1,2 @@
 # ProjectGwenom
-A place for kids to learn and love coding. 
+A place for girls to fall in love with coding. 
