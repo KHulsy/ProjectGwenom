@@ -1,0 +1,117 @@
+Ten Code Questions:
+1. Fill in the missing code: 
+ <!DOCTYPE htm
+<html>
+<head>
+<style>
+.serif {
+  font-family: "", , ;
+
+2. The pirate variable=yaaaarr= x,  ;
+x=3
+y=4
+
+3. Creat an animal danceoff:
+ whenSetup(function () {
+});
+
+/*
+makeAnonymousDanceSprite("CAT", {x: 200, y: 200});
+*/whenSetup(function () {
+  makeAnonymousDanceSprite("CAT", {x: 300, y: 200});
+  makeAnonymousDanceSprite("BEAR", {x: 100, y: 200});
+});
+
+whenKey("up", function () {
+  doMoveEachLR("BEAR", "rand", -1);
+  makeAnonymousDanceSprite("SLOTH", {x: 200, y: 200});
+});
+
+whenKey("down", function () {
+  });
+  4. Create a clickme button.
+  // Create a "Click Me" button.
+button("id", "Click Me!");
+
+4. Flip A Coin, Fix the Incorrect Code.
+//If there are two sides two every coin, what are our two choices?
+// Call a function to flip a fair coin. Display the returned value on the console.
+
+console.log(coinFlip());
+
+// Define a function that uses randomNumber(1)
+// to randomly generate a one (heads)
+// or zero (tails) and return the appropriate word.
+
+function coinFlip() { 
+  if (randomNumber(1)==1) return "BEDS";
+  else return "RAILS";
+}
+
+5. Change the background elements of this CSS code block.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+6. //Replace the Youtube video in the code with your own favorite Youtube video.
+ave (or play) a video.
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+
+
+7. //Code out time using Javascript. Fill in the blanks, please.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type=""
+onclick="document.getElementById('-emo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+
+8.// Create a heading in HTML. Fill in the blanks. 
+<DOCTYPE HTML>
+<html>
+<body>
+<h1- heading 1 <---
+
+9. //Inspect the Code
+Using chrome, go to the following URL: https://www.disney.com/
+Change the heading of the URL, and put a screenshot here.
+
+10. //Research Font Families
+In chrome, go to the following URL:https://fonts.google.com/. What is your favorite font family?
+In one sentence, write it out here. Tell me why you like the fonts.
+
