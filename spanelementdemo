@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A demonstration of how to access a SPAN element</h3>
+
+<p>My mother has <span id="mySpan" style="color:brown;">brown</span> eyes.</p>
+
+<p>Click the button to get the color of the span element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySpan").style.color;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
