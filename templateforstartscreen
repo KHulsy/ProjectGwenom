@@ -1,0 +1,16 @@
+JSON template for start screen(needs to be altered)
+
+{
+  "text": "Description of the whole display file goes here",
+  "formats": [{
+    "screen": { screen properties go here },
+    "items": [
+       array of items/widgets on this screen, with their properties
+    ]
+  },{
+    "screen": { second screen's properties go here },
+    "items": [
+       array of items/widgets on the second screen
+    ]
+  }]
+}
