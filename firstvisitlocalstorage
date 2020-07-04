@@ -1,0 +1,83 @@
+I've created a fiddle which solves your issue.
+
+$(document).ready(function() {
+  $(".enter_link").click(function(e) {
+    e.stopPropagation();
+    $(this)
+      .parent("#splashscreen")
+      .fadeOut(500);
+  });
+});
+  #splashscreen {
+  background-color: #000000;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+}
+
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100000;
+  height: auto;
+  max-width: 55%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    max-width: 90%;
+  }
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 10000;
+  }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="splashscreen">
+
+  <a href="#" class="enter_link">
+    <img class="logo" src="XXXXXXXXXX">
+    <video playsinline="" autoplay="" muted="" loop="" poster="XXXXXXXXXXX" id="bgvid">
+      <source src="XXXXXXXXXXX" type="video/mp4">
+      </source>
+    </video>
+  </a>
+</div>
+ Run code snippetHide results
+Full page
+The changes I've made are,
+
+$(document).ready(function() {
+  $(".enter_link").click(function(e) {
+    e.stopPropagation();
+    $(this)
+      .parent("#splashscreen")
+      .fadeOut(500);
+  });
+});
+Your anchor tag doesn't cover the whole page though, instead you could have the click event directly on #splashscreen and do the following in your method,
+
+$(this).fadeOut(500);
+UPDATE
+
+To track first visit to the site, you can use localStorage - you can set a flag called firstVisit
+
+let firstVisit = !localStorage.getItem('firstVisitCompleted')
+if (firstVisit) {
+  showSplashScreen()
+  localStorage.setItem('firstVisitCompleted', true)
+} else {
+  hideSplashScreen()
+}
