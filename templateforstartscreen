@@ -1,7 +1,7 @@
 JSON template for start screen(needs to be altered)
 
-{
-  "text": "Description of the whole display file goes here",
+{Splash Screen
+  "text": "Hey, pretty. Click on the Glow Text",
   "formats": [{
     "screen": { screen properties go here },
     "items": [
