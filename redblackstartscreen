@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-shadow: 0 0 3px #FF0000;
+}
+</style>
+</head>
+<body>
+
+<h1>Hey Princess, Ready To Play?</h1>
+</body>
+</html>
