@@ -237,31 +237,49 @@ table, th, td {
 
 </body>
 </html>
-                         <html>
-<body bgcolor=FFFF88>
-<h2> Example4: A Simple Guestbook . . .</h2>
-<a href="guest.html">Go Back</a>
-<h4>Click <a href="guest4.txt">Here</a> to view HTML code of this guestbook page</h4>
-<h3>Click <a href="#submit">Here</a> To add your own entry to the guestbook.</h3>
+<html>
+<body bgcolor=FF8888>
+<h2> Sign the Guest Book </h2>
+<a href="guest.html">GO BACK</a>
+<h4>Click <a href="guest3.txt">Here</a> to view HTML code of this guestbook page</h4>
 
+<h3>Click <a href="#results">To view the current results</a></h3>
+<hr>
+<h3>Please provide your name, title, and why you think it's important for girls to code. </h3>
+
+<form method=post action="/cgi-bin/guestBook.pl">
+<h5>1.Sylvia Plath</h5>
+<blockquote>
+"Out of the ash, I rise with my red hair/and I eat men like air."-Sylvia Plath, Lady Lazarus.
+</blockquote>
+
+<h5>2. Who was buried in Grant's tomb: </h5>
+<input type=text name="Buried in Grant's tomb" size=50><br>
+
+<h5>3. Who do you favor in the next presidential race: </h5>
+<blockquote>
+<input type=radio name="Favored in presidential race" value="Mickey Mouse"><b>Mickey Mouse</b>
+<input type=radio name="Favored in presidential race" value="Santa Claus"><b>Santa Claus</b><br>
+<input type=radio name="Favored in presidential race" value="Elmer Fudd"><b>Elmer Fudd</b><br>
+<input type=radio name="Favored in presidential race" value="None of the above"><b>None Of The Above</b><br>
+</blockquote>
+
+<input type=submit value="Submit">
+</form>
+
+<a name="results">
 <hr noshade>
+<h3>Instantaneous Results:</h3>
+</a>
 
 <!--GUESTBOOK-OPTIONS: maxEntries=10-->
 <!--GUESTBOOK-->
 <!--GUESTBOOK-->
 
-<a name="submit">
 <hr noshade>
-</a>
-<h3>Add an entry to this guestbook</h3>
-<h4>Enter your information and press the 'Submit' button below</h4>
-<form method=post action="/cgi-bin/guestBook.pl">
-<input type=hidden name=fields value="Name,Email,Comments">
-Name: <input type=text name=Name><br>
-Email Address: <input type=text name=Email><br>
-Comments: <br><textarea name=Comments rows=5 cols=60>
-</textarea><br>
-<input type=submit value="Submit">
-</form>
+
 </body>
 </html>
+                         
+                         
+                         
