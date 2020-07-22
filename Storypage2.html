@@ -142,7 +142,43 @@ text-shadow: 2px 2px;
 </head>
 
 <body>
-    
+  body{
+  margin:0;
+  padding:0;
+}
+div{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  margin:0;
+  padding:0;
+  align-items:center;
+}
+p{
+  width:50%;
+  animation:animate 8s linear forwards;
+  padding:10px;
+  
+}
+
+@keyframes animate{
+  0%{
+    border-style: solid;
+border-width: 0px 0px 0px;
+border-image: url(https://image.shutterstock.com/image-vector/cartoon-fire-flame-frame-borders-260nw-1362735449.jpg) 73 157 73 151 repeat stretch;
+  }
+  100%{
+    border-style: solid;
+border-width: 29px 0px 29px 0px;
+border-image: url(https://image.shutterstock.com/image-vector/cartoon-fire-flame-frame-borders-260nw-1362735449.jpg) 73 157 73 151 repeat stretch;
+  }
+}
+<body>
+<div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maxime suscipit dolorum porro eius dignissimos commodi quibusdam expedita rerum alias asperiores iste nisi animi modi eligendi quam quia, voluptas earum!</p>
+</div>
+</body>    
     <!DOCTYPE html>
     <html>
 
