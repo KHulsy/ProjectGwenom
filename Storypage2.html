@@ -1,16 +1,30 @@
 </html><!DOCTYPE html>
 <style>
-/* customizable snowflake styling */
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
 
-@keyframes color-me-in {
-  /* You could think of as "step 1" */
+@keyframes color-change {
   0% {
-    background: blue;
+    background-color: blue;
   }
-  /* You could think of as "step 2" */
+  20% {
+    background-color: violet;
+  }
+  40% {
+    background-color: blue;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: blue;
+  }
   100% {
-    background:turquoise;
+    background-color: violet;
   }
+}
+
 }
 
   </div></body>
