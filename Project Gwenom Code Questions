@@ -1,54 +1,17 @@
 Ten Code Questions:
-1. Fill in the missing code: 
- <!DOCTYPE htm
-<html>
-<head>
-<style>
-.serif {
-  font-family: "", , ;
 
-2. The pirate variable=yaaaarr= x,  ;
-x=3
-y=4
+1. Write one paragraph telling me about your favorite music video or film. Think about the special effects. Name the video or the movie. Tell me the artist. Tell me why 
+it kept your attention. As you write it, I want you to think about how it was made.
 
-3. Creat an animal danceoff:
- whenSetup(function () {
-});
+2. What is your favorite game or app on your phone? If you play games on your mom or dad's phone, what do you play? What do you like about it? Why is it fun for you to play?
 
-/*
-makeAnonymousDanceSprite("CAT", {x: 200, y: 200});
-*/whenSetup(function () {
-  makeAnonymousDanceSprite("CAT", {x: 300, y: 200});
-  makeAnonymousDanceSprite("BEAR", {x: 100, y: 200});
-});
+3. What is your favorite class? What technology do they use that is interesting to you?
 
-whenKey("up", function () {
-  doMoveEachLR("BEAR", "rand", -1);
-  makeAnonymousDanceSprite("SLOTH", {x: 200, y: 200});
-});
+4. I know that your teacher sometimes gets mad if your phone is out in class. What makes your phone more interesting than what your teacher is saying? 
 
-whenKey("down", function () {
-  });
-  4. Create a clickme button.
-  // Create a "Click Me" button.
-button("id", "Click Me!");
+4. How do you think a selfie is made and sent? Would it be cool to know that? Tell me why.
 
-4. Flip A Coin, Fix the Incorrect Code.
-//If there are two sides two every coin, what are our two choices?
-// Call a function to flip a fair coin. Display the returned value on the console.
-
-console.log(coinFlip());
-
-// Define a function that uses randomNumber(1)
-// to randomly generate a one (heads)
-// or zero (tails) and return the appropriate word.
-
-function coinFlip() { 
-  if (randomNumber(1)==1) return "BEDS";
-  else return "RAILS";
-}
-
-5. Change the background elements of this CSS code block.
+5. This is a code block. You can use whatever colors you want, but you have to change the code to do so. Where are the colors? Change them up.
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,42 +39,35 @@ p {
 </body>
 </html>
 
-6. //Replace the Youtube video in the code with your own favorite Youtube video.
-ave (or play) a video.
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
+6. When web developers code, they usually use pseudo-code before they start. Pseudo-code is like a list of directions to building cool stuff. I want you to think about building an app.
+You can build any app you want. What do you think you would do first? There is no right or wrong answer. Give me three steps, numbered. 
+//This is where your code starts.//
 
 
 
 
-7. //Code out time using Javascript. Fill in the blanks, please.
-<!DOCTYPE html>
-<html>
-<body>
+7. What is your favorite animal? I want you to design it. Answer the questions below.
+//1.Animal
+  2. Color of fur:
+  3. Do you want your animal to move, or to stay in place?
+  4. Where would you put it on the screen? 
+  5. What is your animal's name?
+  6. Why is your animal cool? 
 
-<h2>My First JavaScript</h2>
 
-<button type=""
-onclick="document.getElementById('-emo').innerHTML = Date()">
-Click me to display Date and Time.</button>
 
-<p id="demo"></p>
+9. Who is your favorite singer? If you could film their music video, how would you do it? After reading the questions, pseudocode it out for me.
+   1. Name of singer(write here).
+   2. What color should they wear?
+   3. What cool things do you want them to do?
+   4. If you could use any special effects(lasers, robots, unicorns), what would you use? Write it out. 
+   //Pseudocode it here.//
+   1.
+   2.
+   3.
+   4.
+   
 
-</body>
-</html> 
 
-8.// Create a heading in HTML. Fill in the blanks. 
-<DOCTYPE HTML>
-<html>
-<body>
-<h1- heading 1 <---
-
-9. //Inspect the Code
-Using chrome, go to the following URL: https://www.disney.com/
-Change the heading of the URL, and put a screenshot here.
-
-10. //Research Font Families
-In chrome, go to the following URL:https://fonts.google.com/. What is your favorite font family?
-In one sentence, write it out here. Tell me why you like the fonts.
+10. Why is it important to ask as many questions in class as possible? Write it out, and store your answer in your heart. Take it with you always. 
 
