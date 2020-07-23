@@ -9,32 +9,33 @@ h1 {
 </head>
 <body>
 
-<h1>Text-shadow with red neon glow</h1>
+<h1>Cool Girls Pop Quiz</h1>
 
 </body>
 </html>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title></title>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>You've Fought and You've Run, Now Enjoy the Fun</h1>
+<p>Answer the questions below.</p>
 
 </body>
 </html>  <nav>
     <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="#!" class="breadcrumb">First</a>
-        <a href="#!" class="breadcrumb">Second</a>
-        <a href="#!" class="breadcrumb">Third</a>
+      <div class="col s40">
+        <a href="#!" class="breadcrumb">Welcome Screen</a>
+        <a href="#!" class="breadcrumb">Fire and Ice</a>
+        <a href="#!" class="breadcrumb">Meet The Witch</a>
+        <a href="#!" class="breadcrumb">Resources</a>
       </div>
     </div>
   </nav>
   
-                                      Ten Code Questions:
+                          Ten Code Questions:
 
 1. Write one paragraph telling me about your favorite music video or film. Think about the special effects. Name the video or the movie. Tell me the artist. Tell me why 
 it kept your attention. As you write it, I want you to think about how it was made.
@@ -105,5 +106,4 @@ You can build any app you want. What do you think you would do first? There is n
    
 
 
-10. Why is it important to ask as many questions in class as possible? Write it out, and store your answer in your heart. Take it with you always. 
-
+10. Why is it important to ask as many questions in class as possible? Write it out, and store your answer in your heart. Take it with you always.
