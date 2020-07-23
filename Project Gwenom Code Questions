@@ -1,4 +1,25 @@
-Ten Code Questions:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+        <a href="#!" class="breadcrumb">Third</a>
+      </div>
+    </div>
+  </nav>
+  
+                                      Ten Code Questions:
 
 1. Write one paragraph telling me about your favorite music video or film. Think about the special effects. Name the video or the movie. Tell me the artist. Tell me why 
 it kept your attention. As you write it, I want you to think about how it was made.
