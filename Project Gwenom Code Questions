@@ -23,87 +23,110 @@ h1 {
 <h1>You've Fought and You've Won, Now Enjoy the Fun</h1>
 <p>Answer the questions below.</p>
 
-</body>
-</html>  <nav>
-    <div class="nav-wrapper">
-      <div class="col s40">
-        <a href="#!" class="breadcrumb">Welcome Screen</a>
-        <a href="#!" class="breadcrumb">Fire and Ice</a>
-        <a href="#!" class="breadcrumb">Meet The Witch</a>
-        <a href="#!" class="breadcrumb">Resources</a>
-      </div>
-    </div>
-  </nav>
-  
-                          Ten Code Questions:
-
-1. Write one paragraph telling me about your favorite music video or film. Think about the special effects. Name the video or the movie. Tell me the artist. Tell me why 
-it kept your attention. As you write it, I want you to think about how it was made.
-
-2. What is your favorite game or app on your phone? If you play games on your mom or dad's phone, what do you play? What do you like about it? Why is it fun for you to play?
-
-3. What is your favorite class? What technology do they use that is interesting to you?
-
-4. I know that your teacher sometimes gets mad if your phone is out in class. What makes your phone more interesting than what your teacher is saying? 
-
-4. How do you think a selfie is made and sent? Would it be cool to know that? Tell me why.
-
-5. This is a code block. You can use whatever colors you want, but you have to change the code to do so. Where are the colors? Change them up.
-<!DOCTYPE html>
+<! DOCTYPE HTML>
 <html>
 <head>
 <style>
-body {
-  background-color: lightblue;
-}
-
 h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+  text-shadow: 0 0 3px #FF0000;
 }
 </style>
 </head>
 <body>
 
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
+<h1>Cool Girls Pop Quiz</h1>
+
+
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
 
-6. When web developers code, they usually use pseudo-code before they start. Pseudo-code is like a list of directions to building cool stuff. I want you to think about building an app.
-You can build any app you want. What do you think you would do first? There is no right or wrong answer. Give me three steps, numbered. 
-//This is where your code starts.//
+<h1>You've Fought and You've Won, Now Enjoy the Fun</h1>
+<p>Answer the questions below.</p>
 
+<div id="quiz"></div>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+function buildQuiz(){}
 
+function showResults(){}
 
+// display quiz right away
+buildQuiz();
 
-7. What is your favorite animal? I want you to design it. Answer the questions below.
-//1.Animal
-  2. Color of fur:
-  3. Do you want your animal to move, or to stay in place?
-  4. Where would you put it on the screen? 
-  5. What is your animal's name?
-  6. Why is your animal cool? 
+// on submit, show results
+submitButton.addEventListener('click', showResults);
+const myQuestions = [
+  {
+    question: "Who invented JavaScript?",
+    answers: {
+      a: "Douglas Crockford",
+      b: "Sheryl Sandberg",
+      c: "Brendan Eich"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Which one of these is a JavaScript package manager?",
+    answers: {
+      a: "Node.js",
+      b: "TypeScript",
+      c: "npm"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Which tool can you use to ensure code quality?",
+    answers: {
+      a: "Angular",
+      b: "jQuery",
+      c: "RequireJS",
+      d: "ESLint"
+    },
+    correctAnswer: "d"
+  }
+];
+function buildQuiz(){
+  // variable to store the HTML output
+  const output = [];
 
+  // for each question...
+  myQuestions.forEach(
+    (currentQuestion, questionNumber) => {
 
+      // variable to store the list of possible answers
+      const answers = [];
 
-9. Who is your favorite singer? If you could film their music video, how would you do it? After reading the questions, pseudocode it out for me.
-   1. Name of singer(write here).
-   2. What color should they wear?
-   3. What cool things do you want them to do?
-   4. If you could use any special effects(lasers, robots, unicorns), what would you use? Write it out. 
-   //Pseudocode it here.//
-   1.
-   2.
-   3.
-   4.
-   
+      // and for each available answer...
+      for(letter in currentQuestion.answers){
 
+        // ...add an HTML radio button
+        answers.push(
+          `<label>
+            <input type="radio" name="question${questionNumber}" value="${letter}">
+            ${letter} :
+            ${currentQuestion.answers[letter]}
+          </label>`
+        );
+      }
 
-10. Why is it important to ask as many questions in class as possible? Write it out, and store your answer in your heart. Take it with you always.
+      // add this question and its answers to the output
+      output.push(
+        `<div class="question"> ${currentQuestion.question} </div>
+        <div class="answers"> ${answers.join('')} </div>`
+      );
+    }
+  );
+
+  // finally combine our output list into one string of HTML and put it on the page
+  quizContainer.innerHTML = output.join('');
+}
