@@ -1,0 +1,9 @@
+{{!-- The model for this route is the current user --}}
+
+<div>
+  Hi <UserProfile @user={{@model}} /> this is a valid Ember template!
+</div>
+
+{{#if @model.isAdmin}}
+  <div>Remember, with great power comes great responsibility!</div>
+{{/if}}
