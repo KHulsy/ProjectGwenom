@@ -1,1 +1,257 @@
 
+</html><!DOCTYPE html>
+<style>
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+body {
+  background: white;
+  animation: color-me-in 5s; /* infinite alternate*/
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: white;
+  }
+  /* You could think of as "step 2" */
+  100% {
+    background:white;
+  }
+}
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+</style>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div></body>
+</html>
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 60px;
+      }
+  </body>
+</html><!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body><iframe width="560" height="315" src="https://www.youtube.com/embed/-W59FzOwYIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1>Project Gwenom: A Collection of Scary Stories for Girls Who Code</h1>
+<p>You're in for a treat, Mon Cherie!  </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-W59FzOwYIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+
+</body>
+</html>
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+text-shadow: 2px 2px;
+}
+</style>
+</head>
+<body>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ayVuQLT00v0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h1>Welcome To The Rapture, Doll!</h1>
+
+</body>
+</html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: dark red;
+            color: pink;
+        }
+        
+        h1 {
+            background-color: pink;
+            color: maroon;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>A Dystopian Tale As Old As Time</h1>
+
+</body>
+
+</html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Dystopian Tale As Old As Time</title>
+
+</head>
+
+<body>
+    
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <style>
+            body {
+                color: maroon;
+            }
+            
+            h1 {
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>"Chapter Zero:Fire and Ice"</h1>
+     
+      <html>
+     <head>
+      <title>HTML Hyperlinks</title>
+   </head>
+
+   <body>
+      <h1></h1>
+      <p>
+         Of all the gin joints in all the world, you had to wake up in this one.There is fire in yours eyes, and it's snowing outside. The a-line knee-length scarlet dress you suddenly find yourself wearing is constraining but flattering.You didn't eat
+            the apple. Your tongue wasn't cut out by the sea witch, and last night you certainly did not find your prince charming. </p>
+        <p>A handsome fella wearing an emerald green fedora and a suit(because they all wore the suits) approaches you. He tells you to follow him, and he'll make all your dreams come true. You ask him if a girl can get a drink before someone randomly plans
+            out your life. A bartender comes from nowhere, and pours out of a bottle marked Apocalyptic Gin.The man in the green fedora watches as you take your first sip. Suddenly, the snow is inside the gin joint. You're wearing a parka, and Mr. Fedora
+            looks like a wolf. He asks you if you'd like to walk through the woods, but you remember those scary Germanic woods where witches set up shop, and Gretels are left to starve. Not on your watch. You politely decline, and step outside the gin
+            joint where everything is suddenly very much inside. You are in an outside container. Your dress is back, and the music is swinging. There is an eerines to this world. A man in a rowboat rocks himself violently, yelling, "my dumb little foundling".
+            A blonde dressed as a ballerina begins to pour hot porridge into her mouth. She looks at you with oscillating eyes, and you realize it's time to go. But how? One pill makes you larger, and one pill makes you small...</p><!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Tangerine, Tangerine, Cursive;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: red;
+}
+
+.navbar a.active {
+  background-color: red;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home" class="active">Dream</a>
+  <a href="#news">Resources</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <h1>Follow The White Rabbit</h1>
+  <p>Go Ask Alice...</p>
+</div>
+
+</body>
+</html>
+</body>
+</html>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbf
+<h1>The span element</h1>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
